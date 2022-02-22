@@ -8,6 +8,7 @@ public class DecoratorInitializer {
 		Shape triangleshape= new Shapedecoratorimplementation(new Triangle());
 		redshape.draw();
 		triangleshape.draw();
+		System.out.println("executing lambda expression.");
 	}
 
 }
